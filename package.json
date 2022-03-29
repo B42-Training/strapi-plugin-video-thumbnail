@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-video-thumbnail",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Video thumbnail plugin for Strapi",
   "strapi": {
     "name": "Video Thumbnail",
