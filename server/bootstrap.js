@@ -1,6 +1,10 @@
 const ffmpeg = require('fluent-ffmpeg');
 
-module.exports = () => {
+module.exports = (
+  {
+    strapi
+  }
+) => {
   // inject lifecycle hook
   // TODO : Find better way to trigger thumbnail generation
   const {beforeCreate, ...lifecycles} = strapi.plugins.upload.models.file.lifecycles || {}
