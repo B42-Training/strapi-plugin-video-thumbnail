@@ -12,6 +12,7 @@
     "url": "git@github.com:darron1217/strapi-plugin-video-thumbnail.git"
   },
   "dependencies": {
+    "@strapi/codemods": "^1.0.2",
     "aws-sdk": "^2.1043.0",
     "fluent-ffmpeg": "^2.1.2",
     "strapi-plugin-upload": "^3.4.4"
